@@ -98,7 +98,7 @@ repos:
     rev: 0.1.0
     hooks:
     - id: markdowndocs
-      args: [--add-to-readme]
+      args: [--all --add-to-readme]
 ```
 
 ## Contributor guidelines
