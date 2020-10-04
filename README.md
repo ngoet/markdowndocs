@@ -102,7 +102,7 @@ repos:
 ```
 
 ## Contributor guidelines
-Suggestions for improvements are appreciated. Please open an issue if you find anything is broken, or if you'd like to improve `makdowndocs`.
+Suggestions for improvements are appreciated. Please open an issue if you find anything is broken, or if you'd like to suggest changes.
 
 ## Code documentation
 [Code documentation](examples/code_documentation.md)
