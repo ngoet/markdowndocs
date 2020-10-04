@@ -90,7 +90,7 @@ Markdowndocs output for:
 * `markdowndocs` does not play nicely with [pydantic](https://pydantic-docs.helpmanual.io/).
 
 ## Using `markdowndocs` with pre-commit hooks
-To use `markdowndocs` to generate up-to-date documentation upon every new commit, add the following configuration to your `.pre-commit-config.yaml` file:
+To use `markdowndocs` to generate up-to-date documentation upon every new commit, add the following configuration to your `.pre-commit-config.yaml` file (and add your preferred configuration options in the `args` field):
 
 ```buildoutcfg
 repos:
