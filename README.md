@@ -33,7 +33,7 @@ $ markdowndocs --exclude-modules <my_module>
 ```
 
 Full options and use:
-```bash
+```text
 $ markdowndocs --help
 usage: markdowndocs [-h] [--output-file-name NAME] [--add-to-readme]
                     [--exclude-dependencies] [--exclude-code] [--version]
