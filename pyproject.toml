@@ -1,0 +1,31 @@
+[tool.black]
+line-length = 120
+target-version = ['py37', 'py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  # Specific to Black
+  | blib2to3
+  | tests/data
+  | profiling
+)/
+'''
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.0.0"
+version_files = [
+    "setup.py:version",
+    "pyproject.toml:version",
+    "markdowndocs/__init__.py"
+]

@@ -1,0 +1,18 @@
+# mypy
+.mypy_cache/
+
+# project settings
+.idea
+
+# venv/dev
+__pycache__/
+activate/
+app.log
+build/
+dist/
+markdowndocs/__pycache__/
+venv/
+
+# tests
+markdowndocs/test/
+tests/tmp/
