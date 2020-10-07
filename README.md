@@ -1,5 +1,5 @@
 # MarkdownDocs
-`markdowndocs` is a light-weight markdown documentation generator that generates a simple `.md` file that documents your code based on your docstrings and raw code.
+`markdowndocs` is a light-weight markdown documentation generator that generates a simple `.md` file that documents your Python code based on your docstrings and raw code.
 
 ---
 
