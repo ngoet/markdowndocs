@@ -98,7 +98,9 @@ repos:
     rev: 0.1.0
     hooks:
     - id: markdowndocs
-      args: [--all --add-to-readme]
+      pass_filenames: false
+      args: ["-m", "<my-module-name>",
+             "--add-to-readme"]
 ```
 
 ## Contributor guidelines
