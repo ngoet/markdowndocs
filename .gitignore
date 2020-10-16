@@ -12,6 +12,7 @@ build/
 dist/
 markdowndocs/__pycache__/
 venv/
+markdowndocs.egg-info/
 
 # tests
 markdowndocs/test/
