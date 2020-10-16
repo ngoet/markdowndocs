@@ -1,3 +1,8 @@
+[![](https://img.shields.io/pypi/v/markdowndocs.svg)](https://pypi.org/project/markdowndocs/)
+[![Downloads](https://pepy.tech/badge/markdowndocs)](https://pepy.tech/project/markdowndocs)
+[![Downloads](https://pepy.tech/badge/markdowndocs/month)](https://pepy.tech/project/markdowndocs/month)
+[![license](https://img.shields.io/github/license/ngoet/markdowndocs)](https://github.com/ngoet/markdowndocs/blob/main/LICENSE)
+
 # MarkdownDocs
 `markdowndocs` is a light-weight markdown documentation generator that generates a simple `.md` file that documents your Python code based on your docstrings and raw code.
 
