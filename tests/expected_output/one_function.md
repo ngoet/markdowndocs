@@ -24,7 +24,7 @@
     :return: A greeting.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def greet(name: str) -> str:

@@ -52,7 +52,7 @@ mddocs_options_scenarios = [
         input_modules=[full_path("test_cases", "one_function")],
         output_file_name="one_function_option",
         option="--exclude-code",
-        should_not_include="<summary>raw code</summary>",
+        should_not_include="<summary>source code</summary>",
     ),
     MddocsOptionScenario(
         input_modules=[full_path("test_cases", "function_with_import_statements")],

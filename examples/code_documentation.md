@@ -127,7 +127,7 @@
     :return: html syntax for a header anchor.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def add_custom_header_anchor(txt: str) -> str:
@@ -155,7 +155,7 @@ def add_custom_header_anchor(txt: str) -> str:
     :return: Header markdown syntax.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def add_header(level: int, header_text: str) -> str:
@@ -188,7 +188,7 @@ def add_header(level: int, header_text: str) -> str:
     :return: Markdown syntax for an index.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def add_index(headers: List[str], indent: int = 0) -> str:
@@ -218,7 +218,7 @@ def add_index(headers: List[str], indent: int = 0) -> str:
     :return: Python string markdown syntax.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def add_python_snippet(txt: str, expandable: bool = True):
@@ -232,7 +232,7 @@ def add_python_snippet(txt: str, expandable: bool = True):
     md_str = f"\n```python\n{txt}\n```"
 
     if expandable:
-        md_str = f"\n<details>\n<summary>raw code</summary>\n{md_str}\n</details>\n"
+        md_str = f"\n<details>\n<summary>source code</summary>\n{md_str}\n</details>\n"
 
     return md_str
 
@@ -251,7 +251,7 @@ def add_python_snippet(txt: str, expandable: bool = True):
     :return: Table markdown syntax.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def add_table(df: pd.DataFrame) -> str:
@@ -280,7 +280,7 @@ def add_table(df: pd.DataFrame) -> str:
     :return: A hyphen-separated string.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def gen_anchor(txt: str) -> str:
@@ -310,7 +310,7 @@ def gen_anchor(txt: str) -> str:
     :return: Italicized string markdown syntax.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def italicize(txt: str):
@@ -342,7 +342,7 @@ def italicize(txt: str):
     :return: Markdown syntax for a list of bullet points.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def list_to_md(
@@ -425,7 +425,7 @@ def list_to_md(
     :return: A list of populated objects conforming with FunctionObject.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def _extract_function_information(
@@ -476,7 +476,7 @@ def _extract_function_information(
     :param mod_name: The user-specified module name.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def _module_exist_error(identified_modules: List[Module], mod_name: str) -> None:
@@ -514,7 +514,7 @@ def _module_exist_error(identified_modules: List[Module], mod_name: str) -> None
     :return: the md file name.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def check_md_file(md_file_name: str) -> str:
@@ -545,7 +545,7 @@ def check_md_file(md_file_name: str) -> str:
     :return: A string of markdown syntax.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def convert_markdown_module_object_to_markdown(markdown_module_object: MarkDownModuleObject) -> str:
@@ -621,7 +621,7 @@ def convert_markdown_module_object_to_markdown(markdown_module_object: MarkDownM
     :return: Absolute filesytem path.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def gen_real_path(pth: str) -> str:
@@ -651,7 +651,7 @@ def gen_real_path(pth: str) -> str:
     :param output_file_name: The output file name for the .md file.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def generate_markdown_file(args, modules: List[Module], output_file_name: str) -> None:
@@ -715,7 +715,7 @@ def generate_markdown_file(args, modules: List[Module], output_file_name: str) -
     :return: A list containing the values of all attributes associated with the class.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def get_class_attributes(obj) -> List[str]:
@@ -744,7 +744,7 @@ def get_class_attributes(obj) -> List[str]:
     :return: a list of module names and full paths in the current directory.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def identify_modules(args) -> List[Module]:
@@ -806,7 +806,7 @@ def identify_modules(args) -> List[Module]:
     Context manager that ensures we only read files from the current WD.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 @contextmanager
@@ -843,7 +843,7 @@ def load_from_wd():
     :return: An object conforming with MarkDownModuleObject.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def process_module(mod: Union[Module, str], args) -> MarkDownModuleObject:
@@ -963,7 +963,7 @@ A Module object
     :param _args: parser arguments.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def main(_args=None) -> None:
@@ -1006,7 +1006,7 @@ def main(_args=None) -> None:
     :return parser: argparse.ArgumentParser object.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
 def set_up_parser() -> argparse.ArgumentParser:
@@ -1041,7 +1041,7 @@ def set_up_parser() -> argparse.ArgumentParser:
     add_arg(
         "--exclude-code",
         action="store_true",
-        help="If enabled, excludes the raw code for each function." "\n[default: False]",
+        help="If enabled, excludes the source code for each function." "\n[default: False]",
     )
     add_arg(
         "--version",

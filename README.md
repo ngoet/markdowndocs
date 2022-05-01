@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/github/license/ngoet/markdowndocs)](https://github.com/ngoet/markdowndocs/blob/main/LICENSE)
 
 # MarkdownDocs
-`markdowndocs` is a light-weight markdown documentation generator that generates a simple `.md` file that documents your Python code based on your docstrings and raw code.
+`markdowndocs` is a light-weight markdown documentation generator that generates a simple `.md` file that documents your Python code based on your docstrings and source code.
 
 ---
 
@@ -59,7 +59,7 @@ optional arguments:
   --exclude-dependencies
                         If enabled, includes a list of dependencies for each
                         module. [default: False]
-  --exclude-code        If enabled, excludes the raw code for each function.
+  --exclude-code        If enabled, excludes the source code for each function.
                         [default: False]
   --version             Show version information and exit.
   -a, --all             Use this option to generate documentation for all
@@ -78,7 +78,7 @@ The following is included in the output by default:
 * User-defined docstrings for modules, classes, and functions (including private methods);
 * Internal links and nested tables of content for all modules, classes, and functions;
 * A list of dependencies (i.e. imports) for each module;
-* The raw code for each function.
+* The source code for each function.
 
 #### Examples
 Markdowndocs output for:

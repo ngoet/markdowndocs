@@ -89,7 +89,7 @@ def add_python_snippet(txt: str, expandable: bool = True):
     md_str = f"\n```python\n{txt}\n```"
 
     if expandable:
-        md_str = f"\n<details>\n<summary>raw code</summary>\n{md_str}\n</details>\n"
+        md_str = f"\n<details>\n<summary>source code</summary>\n{md_str}\n</details>\n"
 
     return md_str
 
