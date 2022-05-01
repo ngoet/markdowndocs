@@ -39,7 +39,7 @@ def set_up_parser() -> argparse.ArgumentParser:
     add_arg(
         "--exclude-code",
         action="store_true",
-        help="If enabled, excludes the raw code for each function." "\n[default: False]",
+        help="If enabled, excludes the source code for each function." "\n[default: False]",
     )
     add_arg(
         "--version",

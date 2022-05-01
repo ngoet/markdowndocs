@@ -40,7 +40,7 @@ Very friendly class that greets people.
 
 *No docstrings available.*
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
     def __init__(self, name):
@@ -62,7 +62,7 @@ Very friendly class that greets people.
         :return: A question.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
     def __ask_name(self) -> str:
@@ -89,7 +89,7 @@ Very friendly class that greets people.
         :return: A greeting.
 
 <details>
-<summary>raw code</summary>
+<summary>source code</summary>
 
 ```python
     def _greet(self) -> str:
