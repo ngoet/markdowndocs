@@ -1,9 +1,14 @@
+# MarkdownDocs
+
 [![](https://img.shields.io/pypi/v/markdowndocs.svg)](https://pypi.org/project/markdowndocs/)
 [![Downloads](https://pepy.tech/badge/markdowndocs)](https://pepy.tech/project/markdowndocs)
 [![Downloads](https://pepy.tech/badge/markdowndocs/month)](https://pepy.tech/project/markdowndocs/month)
 [![license](https://img.shields.io/github/license/ngoet/markdowndocs)](https://github.com/ngoet/markdowndocs/blob/main/LICENSE)
 
-# MarkdownDocs
+[![ci-linting](https://github.com/ngoet/markdowndocs/actions/workflows/ci-linting.yaml/badge.svg?branch=main)](https://github.com/ngoet/markdowndocs/actions/workflows/ci-linting.yaml)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 `markdowndocs` is a light-weight markdown documentation generator that generates a simple `.md` file that documents your Python code based on your docstrings and source code.
 
 ---
