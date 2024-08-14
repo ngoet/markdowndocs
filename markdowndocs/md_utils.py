@@ -40,7 +40,7 @@ def add_header(level: int, header_text: str) -> str:
     assert level <= 6, "Header level cannot exceed 4"
 
     prefix = "" if level == 1 else "\n"
-    backslash = "\_"
+    backslash = "\\_"
     return f"{prefix}{'#' * level} {add_custom_header_anchor(header_text)}{re.sub('_', backslash, header_text)}"
 
 
@@ -112,5 +112,5 @@ def add_index(headers: List[str], indent: int = 0) -> str:
     :param indent: The indentation level for the link.
     :return: Markdown syntax for an index.
     """
-    backslash = "\_"
+    backslash = "\\_"
     return list_to_md([f"[{re.sub('_', backslash, h)}](#{gen_anchor(h)})" for h in headers], indent=indent)
