@@ -60,7 +60,7 @@ Very friendly class that greets people.
         Ask name.
 
         :return: A question.
-
+        
 <details>
 <summary>source code</summary>
 
@@ -87,7 +87,7 @@ Very friendly class that greets people.
         Generates a greeting.
 
         :return: A greeting.
-
+        
 <details>
 <summary>source code</summary>
 

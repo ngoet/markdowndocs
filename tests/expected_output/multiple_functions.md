@@ -27,7 +27,7 @@
 
     :param name: A name.
     :return: A question.
-
+    
 <details>
 <summary>source code</summary>
 
@@ -54,7 +54,7 @@ def ask_name(name: str) -> str:
 
     :param name: A name.
     :return: A greeting.
-
+    
 <details>
 <summary>source code</summary>
 

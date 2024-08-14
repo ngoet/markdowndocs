@@ -1,3 +1,18 @@
+[tool.poetry]
+name = "markdowndocs"
+version = "0.1.0"
+description = "A light-weight markdown documentation generator that generates a simple .md file that documents your Python code based on your docstrings and source code."
+authors = ["Niels D. Goet <ndgoet@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tabulate = "^0.9.0"
+pandas = "^1.1.2"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.2"
+
 [tool.black]
 line-length = 120
 target-version = ['py37', 'py38']
