@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.3.0
+    rev: v4.6.0
     hooks:
     -   id: check-yaml
     -   id: check-toml
@@ -8,10 +8,10 @@ repos:
     -   id: trailing-whitespace
     -   id: check-docstring-first
     -   id: check-merge-conflict
-    -   id: end-of-file-fixer
     -   id: mixed-line-ending
         args: [--fix=lf]
 -   repo: https://github.com/ambv/black
-    rev: stable
+    rev: 24.8.0
     hooks:
     - id: black
+exclude: ^tests/expected_output
