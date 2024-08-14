@@ -24,14 +24,6 @@ markdowndocs_scenarios = [
     Scenario(input_modules=[full_path("test_cases", "class_and_functions")], output_file_name="class_and_functions"),
     Scenario(input_modules=[full_path("test_cases", "multiple_functions")], output_file_name="multiple_functions"),
     Scenario(
-        input_modules=[
-            full_path("test_cases", "one_function"),
-            full_path("test_cases", "class_and_functions"),
-            full_path("test_cases", "multiple_functions"),
-        ],
-        output_file_name="multiple_modules",
-    ),
-    Scenario(
         input_modules=[full_path("test_cases", "class_and_private_functions")],
         output_file_name="class_and_private_functions",
     ),

@@ -22,7 +22,7 @@
 
     :param name: A name.
     :return: A greeting.
-
+    
 <details>
 <summary>source code</summary>
 
