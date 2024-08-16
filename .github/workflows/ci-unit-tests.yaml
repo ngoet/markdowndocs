@@ -1,4 +1,4 @@
-name: "ci-unit-tests"
+name: "ci-regression-tests"
 on:
   pull_request:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test:
+  regression-test:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -19,6 +19,6 @@ jobs:
         run: |
           pip install poetry
           poetry install --with dev
-      - name: Run unit tests
+      - name: Run regression tests
         run: |
-          poetry run pytest tests/test_markdowndocs.py -v
+          poetry run pytest tests/test_regressions_markdowndocs.py -v
