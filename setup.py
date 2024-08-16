@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="markdowndocs",
-    version="0.1.0",
+    version="0.1.1",
     author="ngoet",
     author_email="ndgoet@gmail.com",
     description="A light-weight markdown code documentation generator",
