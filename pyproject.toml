@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "markdowndocs"
-version = "0.1.0"
+version = "0.1.1"
 description = "A light-weight markdown documentation generator that generates a simple .md file that documents your Python code based on your docstrings and source code."
 authors = ["Niels D. Goet <ndgoet@gmail.com>"]
 
@@ -38,7 +38,7 @@ exclude = '''
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.1.0"
+version = "0.1.1"
 version_files = [
     "setup.py:version",
     "pyproject.toml:version",
