@@ -6,6 +6,7 @@
 [![license](https://img.shields.io/github/license/ngoet/markdowndocs)](https://github.com/ngoet/markdowndocs/blob/main/LICENSE)
 
 [![ci-linting](https://github.com/ngoet/markdowndocs/actions/workflows/ci-linting.yaml/badge.svg?branch=main)](https://github.com/ngoet/markdowndocs/actions/workflows/ci-linting.yaml)
+[![ci-regression-tests](https://github.com/ngoet/markdowndocs/actions/workflows/ci-regression-tests.yaml/badge.svg?branch=main)](https://github.com/ngoet/markdowndocs/actions/workflows/ci-regression-tests.yaml)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
